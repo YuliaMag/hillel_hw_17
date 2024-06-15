@@ -35,7 +35,7 @@ class ItalianMealBuilder(MealBuilder):
         self.meal = Meal()
 
     def main_course(self):
-        self.meal.burger = "Pizza"
+        self.meal.main_course = "Pizza"
 
     def drink(self):
         self.meal.drink = "Red Wine"
@@ -53,7 +53,7 @@ class AmericanMealBuilder(MealBuilder):
         self.meal = Meal()
 
     def main_course(self):
-        self.meal.burger = "Cheeseburger"
+        self.meal.main_course = "Cheeseburger"
 
     def drink(self):
         self.meal.drink = "Cola"
